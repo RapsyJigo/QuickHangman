@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1716183776 source:c:\mirela\aplicatii_c++\hangman\main.cpp
+	<iostream>
+	"RandomWord.h"
+	"ParsareCuvant.h"
+	<string>
+	<algorithm>
+
+1716182711 c:\mirela\aplicatii_c++\hangman\randomword.h
+	<fstream>
+	<string>
+	<random>
+
+1716184020 c:\mirela\aplicatii_c++\hangman\parsarecuvant.h
+	<string>
+
