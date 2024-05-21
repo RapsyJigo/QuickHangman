@@ -3,6 +3,7 @@
 #include <fstream>
 #include <string>
 #include <random>
+#include <time.h>
 using namespace std;
 
 string RandomWord ()
@@ -10,6 +11,7 @@ string RandomWord ()
     ifstream in ("data.in");
     int n;
     in >> n;
+    srand(time(NULL));
     int random = rand()%n+1;
     string cuvant;
 
